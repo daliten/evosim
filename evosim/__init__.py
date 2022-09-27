@@ -1,2 +1,2 @@
-from evosim.population import Population
-from evosim.evolution import Simulator, EnsembleSimulator
+from .population import Population
+from .evolution import Simulator, EnsembleSimulator

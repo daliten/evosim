@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.1" />
+<title>evosim.population API documentation</title>
+<meta name="description" content="" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML'></script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>evosim.population</code></h1>
+</header>
+<section id="section-intro">
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="evosim.population.rescale_mut"><code class="name flex">
+<span>def <span class="ident">rescale_mut</span></span>(<span>tstep, mut_num)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="evosim.population.Population"><code class="flex name class">
+<span>class <span class="ident">Population</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Defines a Population object and provides functions for simulating a continuous-time branching process through either extended-time leaping or Gillespie's algorithm.</p></div>
+<h3>Methods</h3>
+<dl>
+<dt id="evosim.population.Population.reset"><code class="name flex">
+<span>def <span class="ident">reset</span></span>(<span>self, pop_dict, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>pop_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Initial population distribution specified as {'Name1':Pop1,'Name2':Pop2,&hellip;,'NameN':PopN} with Pop1,&hellip;,PopN int; 'Name1',&hellip;,'NameN' can be any user-specified type.</dd>
+<dt><strong><code>leap_threshold</code></strong> :&ensp;<code>int</code>, optional</dt>
+<dd>Subpopulation threshold at which leaping sets in, if in 'leaping' mode. Defaults to 10^2.</dd>
+<dt><strong><code>carrying_capacity</code></strong> :&ensp;<code>int</code>, optional</dt>
+<dd>Carrying capacity of environment. Defaults to 10^18.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>None.</p></div>
+</dd>
+<dt id="evosim.population.Population.get_char_time"><code class="name flex">
+<span>def <span class="ident">get_char_time</span></span>(<span>self, key)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Computes the current characteristic times for a single cell type.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>key</code></strong> :&ensp;<code>user-specified type</code></dt>
+<dd>Cell type identifier (as defined in self.pheno_dict).</dd>
+<dt><strong><code>pop</code></strong> :&ensp;<code>int</code></dt>
+<dd>Current population of this cell type.</dd>
+</dl>
+<h2 id="raises">Raises</h2>
+<dl>
+<dt><code>Exception</code></dt>
+<dd>&nbsp;</dd>
+</dl>
+<p>If there is a species for which neither birth nor death rate is positive.</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>Characteristic time.</dd>
+</dl></div>
+</dd>
+<dt id="evosim.population.Population.get_pops"><code class="name flex">
+<span>def <span class="ident">get_pops</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>List of current population levels, ordered in accordance with types specified in self.pheno_dict.</dd>
+</dl></div>
+</dd>
+<dt id="evosim.population.Population.birth_death_rates"><code class="name flex">
+<span>def <span class="ident">birth_death_rates</span></span>(<span>self, key)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Computes the current per-cell birth and death rates for a specified cell type. Assumes: logistic growth; resource capacity only affects birth rates.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>key</code></strong> :&ensp;<code>user-specified type</code></dt>
+<dd>Cell type identifier (as defined in self.pheno_dict).</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>A two-element list [birth rate, death rate].</dd>
+</dl></div>
+</dd>
+<dt id="evosim.population.Population.r_rates"><code class="name flex">
+<span>def <span class="ident">r_rates</span></span>(<span>self, key)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Computes the per-population birth and death rates for a specified cell type .</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>key</code></strong> :&ensp;<code>user-specified type</code></dt>
+<dd>Cell type identifier (as defined in self.pheno_dict).</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>A two-element list [birth rate, death rate].</dd>
+</dl></div>
+</dd>
+<dt id="evosim.population.Population.eff_branch_times"><code class="name flex">
+<span>def <span class="ident">eff_branch_times</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><h2 id="raises">Raises</h2>
+<dl>
+<dt><code>Exception</code></dt>
+<dd>&nbsp;</dd>
+</dl>
+<p>If both the birth and death rates for one of the cell types are zero.</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>Two dictionaries: one of natural branching times (pops below leap threshold) and one of effective branching times (pops above leap threshold)</dd>
+</dl></div>
+</dd>
+<dt id="evosim.population.Population.branching_sim_multinomial"><code class="name flex">
+<span>def <span class="ident">branching_sim_multinomial</span></span>(<span>self, key, tstep)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Performs a single extended-time leaping simulation for a given cell type over a specified time interval.
+First computes the rescaled probabilities for this population level and time interval; then uses probabilities to drawn from a multinomial distribution.
+Updates self.pheno_dict with new population structure.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>key</code></strong> :&ensp;<code>user-specified type</code></dt>
+<dd>Cell type identifier (as defined in self.pheno_dict).</dd>
+<dt><strong><code>tstep</code></strong> :&ensp;<code>float</code></dt>
+<dd>Time interval.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<p>None.</p></div>
+</dd>
+<dt id="evosim.population.Population.evolve_leaping"><code class="name flex">
+<span>def <span class="ident">evolve_leaping</span></span>(<span>self, overall_time, sim_time, birth_rates, death_rates, mut_probs, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Evolves the system under specified parameters with the extended-time leaping algoritm.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>overall_time</code></strong> :&ensp;<code>float</code></dt>
+<dd>Current time; time for starting simulation.</dd>
+<dt><strong><code>sim_time</code></strong> :&ensp;<code>float</code></dt>
+<dd>Simulation time.</dd>
+<dt><strong><code>birth_rates</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Birth/division rates (inverse expected time to the division of a cell) specified as {'Name1':birth_rate1,'Name2':birth_rate2,&hellip;,'NameN':birth_rateN} with birth_rate1,&hellip;,birth_rateN floats; 'Name1',&hellip;,'NameN' can be any user-specified type.</dd>
+<dt><strong><code>death_rates</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Death rates (inverse expected time to the death of a cell) specified as {'Name1':death_rate1,'Name2':death_rate2,&hellip;,'NameN':death_rateN} with death_rate1,&hellip;,death_rateN floats; 'Name1',&hellip;,'NameN' can be any user-specified type.</dd>
+<dt><strong><code>mut_probs</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Mutation probabilities (probability of mutation to phenotype j in a single division of a phenotype i cell) specified as a dictionary of embedded dictionaries {'Name1':{'Name2':prob_mut_1_to_2,&hellip;,'NameN':prob_mut_1_to_N},&hellip;,'NameN':{'Name1':prob_mut_N_to_1,&hellip;,'Name(N-1)':prob_mut_N_to_(N-1)}}.</dd>
+<dt><strong><code>detection_threshold</code></strong> :&ensp;<code>int</code>, optional</dt>
+<dd>Stops the simulation when the population at or above specified level is detected. Default is no detection threshold (-1). Note that since population size is only checked at certain intervals during the simulation, threshold detection is only approximate.</dd>
+<dt><strong><code>quit_at_zero_cells</code></strong> :&ensp;<code>bool</code>, optional</dt>
+<dd>Stops the simulation when the total population size is zero. Default is True.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>Current updated time.</dd>
+<dt><strong><code>is_done</code></strong> :&ensp;<code>bool</code></dt>
+<dd>Indicator for whether the simulation has terminated.</dd>
+</dl></div>
+</dd>
+<dt id="evosim.population.Population.evolve_SSA"><code class="name flex">
+<span>def <span class="ident">evolve_SSA</span></span>(<span>self, overall_time, sim_time, birth_rates, death_rates, mut_probs, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Evolves the system under specified parameters with the SSA / Gillespie's algoritm.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>overall_time</code></strong> :&ensp;<code>float</code></dt>
+<dd>Current time; time for starting simulation.</dd>
+<dt><strong><code>sim_time</code></strong> :&ensp;<code>float</code></dt>
+<dd>Simulation time.</dd>
+<dt><strong><code>birth_rates</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Birth/division rates (inverse expected time to the division of a cell) specified as {'Name1':birth_rate1,'Name2':birth_rate2,&hellip;,'NameN':birth_rateN} with birth_rate1,&hellip;,birth_rateN floats; 'Name1',&hellip;,'NameN' can be any user-specified type.</dd>
+<dt><strong><code>death_rates</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Death rates (inverse expected time to the death of a cell) specified as {'Name1':death_rate1,'Name2':death_rate2,&hellip;,'NameN':death_rateN} with death_rate1,&hellip;,death_rateN floats; 'Name1',&hellip;,'NameN' can be any user-specified type.</dd>
+<dt><strong><code>mut_probs</code></strong> :&ensp;<code>dict</code></dt>
+<dd>Mutation probabilities (probability of mutation to phenotype j in a single division of a phenotype i cell) specified as a dictionary of embedded dictionaries {'Name1':{'Name2':prob_mut_1_to_2,&hellip;,'NameN':prob_mut_1_to_N},&hellip;,'NameN':{'Name1':prob_mut_N_to_1,&hellip;,'Name(N-1)':prob_mut_N_to_(N-1)}}.</dd>
+<dt><strong><code>detection_threshold</code></strong> :&ensp;<code>int</code>, optional</dt>
+<dd>Stops the simulation when the population at or above specified level is detected. Default is no detection threshold (-1). Note that since population size is only checked at certain intervals during the simulation, threshold detection is only approximate.</dd>
+<dt><strong><code>quit_at_zero_cells</code></strong> :&ensp;<code>bool</code>, optional</dt>
+<dd>Stops the simulation when the total population size is zero. Default is True.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>Current updated time.</dd>
+<dt><strong><code>is_done</code></strong> :&ensp;<code>bool</code></dt>
+<dd>Indicator for whether the simulation has terminated.</dd>
+</dl></div>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="evosim" href="index.html">evosim</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="evosim.population.rescale_mut" href="#evosim.population.rescale_mut">rescale_mut</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="evosim.population.Population" href="#evosim.population.Population">Population</a></code></h4>
+<ul class="">
+<li><code><a title="evosim.population.Population.reset" href="#evosim.population.Population.reset">reset</a></code></li>
+<li><code><a title="evosim.population.Population.get_char_time" href="#evosim.population.Population.get_char_time">get_char_time</a></code></li>
+<li><code><a title="evosim.population.Population.get_pops" href="#evosim.population.Population.get_pops">get_pops</a></code></li>
+<li><code><a title="evosim.population.Population.birth_death_rates" href="#evosim.population.Population.birth_death_rates">birth_death_rates</a></code></li>
+<li><code><a title="evosim.population.Population.r_rates" href="#evosim.population.Population.r_rates">r_rates</a></code></li>
+<li><code><a title="evosim.population.Population.eff_branch_times" href="#evosim.population.Population.eff_branch_times">eff_branch_times</a></code></li>
+<li><code><a title="evosim.population.Population.branching_sim_multinomial" href="#evosim.population.Population.branching_sim_multinomial">branching_sim_multinomial</a></code></li>
+<li><code><a title="evosim.population.Population.evolve_leaping" href="#evosim.population.Population.evolve_leaping">evolve_leaping</a></code></li>
+<li><code><a title="evosim.population.Population.evolve_SSA" href="#evosim.population.Population.evolve_SSA">evolve_SSA</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.1</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>

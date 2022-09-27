@@ -48,5 +48,5 @@ setuptools.setup(
     classifiers = CLASSIFIERS,
     python_requires=PYTHON_REQ,
     install_requires = REQUIREMENTS,
-    package_dir={"": "evosim"},
-    packages=setuptools.find_packages(where='evosim',exclude=['examples_tutorials']))
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where='src',exclude=['tests']))

@@ -17,7 +17,8 @@ _evosim_ is a wrapper for the tau-leaping algorithm, described in detail in the 
 
 ### Installing
 
-To install from GitHub: INSTRUCTIONS
+To install from GitHub: git clone https://github.com/daliten/evosim
+pip install evosim
 
 ## License
 
@@ -44,8 +45,4 @@ See Documentation for full functional documentation and **PAPER** for background
 
 ## Examples and tutorials
 
-See **Examples_Tutorials** for examples and tutorials. The EnsembleSimulator example, which generates, treats, and analyzes a cancer patient cohort, assumes familiarity with the functionalities described in Simulator example 1. 
-
-## Questions and comments
-
-Package-specific questions can be submitted [here] (mailto:EMAIL).
+See **examples_tutorials** for examples and tutorials. The EnsembleSimulator example, which generates, treats, and analyzes a cancer patient cohort, assumes familiarity with the functionalities described in Simulator example 1. 

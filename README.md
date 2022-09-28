@@ -1,4 +1,4 @@
-# _evosim_: a Python package for scalable and accurate clonal evolutionary dynamics simulations of continuous-time branching processes
+# _evosim_: a Python package for fast and scalable stochastic simulations of evolutionary dynamics
 
 _evosim_ is a Python implementation of a fast, scalable, and unbiased tau-leaping algorithm for the simulation of continuous-time Markov birth-death-mutation branching processes. These stochastic processes are commonly simulated by Gillespie's Stochastic Simulation Algorithm (SSA), but the SSA does not scale up well to large population times and becomes computationally prohibitive at populations above a million cells. Many biomedical scenarios (e.g. simulation of tumor evolution and progression) can evolve cell populations that are much larger than this, calling for faster methods that retain simulation accuracy.
 

@@ -25,7 +25,7 @@ pip install ./evosim
 
 ## License
 
-_evosim_ is released under the General Public License version 3 (GPLv3+).
+_evosim_ is released under the MIT License.
 
 ## Using evosim
 

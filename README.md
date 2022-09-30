@@ -2,7 +2,7 @@
 
 _evosim_ is a Python implementation of a fast, scalable, and unbiased tau-leaping algorithm for the simulation of continuous-time Markov birth-death-mutation branching processes. These stochastic processes are commonly simulated by Gillespie's Stochastic Simulation Algorithm (SSA), but the SSA does not scale up well to large population times and becomes computationally prohibitive at populations above a million cells. Many biomedical scenarios (e.g. simulation of tumor evolution and progression) can evolve cell populations that are much larger than this, calling for faster methods that retain simulation accuracy.
 
-_evosim_ is a wrapper for the tau-leaping algorithm, described in detail in the Supplemental Information in <https://www.biorxiv.org/content/10.1101/2022.09.28.509950v1>. The package provides flexibility in terms of changing evolutionary parameters over time (e.g. due to changes in evolutionary conditions, like changes in growth due to drug administration or changes in mutation rates). The package provides tracking and plotting capabilities, a function for subsampling from the entire population (e.g. as in an serial dilution or surgical resection), as well as functions for computing a number of diversity indices (e.g. Shannon and Gini indices) and for converting the time units on the output.
+_evosim_ is a wrapper for the tau-leaping algorithm described in detail in the Supplementary Information to <https://www.biorxiv.org/content/10.1101/2022.09.28.509950v1>. The package provides flexibility in terms of changing evolutionary parameters over time (e.g. due to changes in evolutionary conditions, like changes in growth due to drug administration or changes in mutation rates). The package provides tracking and plotting capabilities, a function for subsampling from the entire population (e.g. as in an serial dilution or surgical resection), as well as functions for computing a number of diversity indices (e.g. Shannon and Gini indices) and for converting the time units on the output.
 
 ## Getting Started
 
@@ -44,7 +44,7 @@ The parameters that must be supplied to either simulator are the clonal distribu
 
 ## Documentation
 
-See Documentation for full functional documentation and <https://www.biorxiv.org/content/10.1101/2022.09.28.509950v1> for background, algorithm, and pseudocode.
+See **Documentation** for full functional documentation.
 
 ## Examples and tutorials
 
